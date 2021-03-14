@@ -60,7 +60,7 @@
     display: flex;
     position: fixed;
     top: -100px;
-    right: 65%;
+    left: 10%;
   }
   .Martigem a {
     width: 4rem;
