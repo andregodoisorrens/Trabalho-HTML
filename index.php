@@ -9,5 +9,14 @@
   <body>
     <h1>tentativa 1</h1>
     <h3>Tentativa de colocar um site no ar</h3>
+    <?php
+    <input type="text" value="$N">
+    if ($N>10){
+      echo "Você Pode acessar";
+    }
+    else{
+      echo "Você Não pode passar";
+    }
+    
   </body>
 </html>
