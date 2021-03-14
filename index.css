@@ -5,6 +5,9 @@
     font-weight: 15rem/1;
     font-style: normal;
   }
+  a{
+    text-decoration: NONE;
+  }
   body {
     margin: 0px;
     padding: 1px;
@@ -216,15 +219,15 @@
     cursor: pointer;
   }
   .button1 {
-    background-color: white;
+    background-color: #e2e2e2;
     color: black;
-    border: 2px solid red;
+    border: 0px solid;
     position: relative;
     left: 0.1%;
   }
   .button2 {
-    background-color: white;
-    border: 2px solid green;
+    background-color: #e2e2e2;
+    border: 0px solid;
     position: relative;
     left: 55%;
   }
