@@ -18,6 +18,8 @@
     background-size: cover;
     backdrop-filter: blur(5px);
   }
+
+  /*Menu*/
   .Martigem {
     margin: 0;
     flex-direction: column;
@@ -46,16 +48,6 @@
     height: 27PX;
     width: 190px;
   }
-  #pet{
-    float:left;
-    background-color:transparent;
-    padding-left: 0px;
-    font-style:italic;
-    font-size:18px;
-    border:none;
-    height: 27PX;
-    width: 400px;
-  }
   #club{
     border: solid 0px;
     width: 400px;
@@ -75,60 +67,19 @@
   .Martigem a:hover {
     opacity: 0.5;
   }
-  .clubepet {
-    color: "white";
-  }
-  .margem {
-    margin: 10px auto;
-    position: center;
-    flex-direction: column;
-    padding: 0px 0px 0px 22px;
-  
+  #divBusca{
+    background-color: #fe6749;
+    border:solid 0px;
+    width: 90px;
+    height: 20px;
     display: flex;
-    position: center;
-    width: 1000px;
-    height: 1300px;
-    
-  
-    background: #e2e2e2;
-    border: 30px solid #b1b1b1;
-    border-left: 100px solid #b1b1b1;
-    border-right: 100px solid #b1b1b1;
-    box-sizing: border-box;
-    backdrop-filter: blur(4px);
+    position: fixed;
+    top: 29px;
+    right: 40px;
   }
-  .table{
-    border: 1px solid black;
-    flex-shrink: 0;
-  }
-  .center{
-    display: inline-block;
-  }
-  .Cadastropet {
-    display: inline-block;
-    align-items: left;
-    width: 10%;
-    tab-size: 0px;
-    color: #e2e2e2;
-    flex-shrink: 0;
-  }
-  .pn{
-    float: right;
-    margin-top: -243px;
-    margin-right: 170px;
-  }
-  .sof{
-    position: left;
-  }
-  .ponto{
-    float: right;
-    margin-top: -315px;
-    margin-right: 90px;
-    opacity: 0.3;
-  }
-  .ini{
-    scroll-margin-bottom: 5px;
-  }
+
+  /*Sub-Menu*/
+
   .Menus {
     position: center;
     border: 0px solid ;
@@ -166,27 +117,71 @@
     border: solid 0px;
     background-color: yellow;
   }
+
+
+  /*Formularioem geral*/
+  .margem {
+    margin: 10px auto;
+    position: center;
+    flex-direction: column;
+    padding: 0px 0px 0px 22px;
   
-  #divBusca{
-    background-color: #fe6749;
-    border:solid 0px;
-    width: 90px;
-    height: 20px;
     display: flex;
-    position: fixed;
-    top: 29px;
-    right: 40px;
+    position: center;
+    width: 1000px;
+    height: 1250px;
+    
+  
+    background: #e2e2e2;
+    border: 30px solid #b1b1b1;
+    border-left: 100px solid #b1b1b1;
+    border-right: 100px solid #b1b1b1;
+    box-sizing: border-box;
+    backdrop-filter: blur(4px);
   }
-  #txtBusca{
-    float:left;
-    background-color:transparent;
-    padding-left: 0px;
-    font-style:italic;
-    font-size:18px;
-    border:none;
-    height: 27PX;
-    width: 190px;
+  .table{
+    border: 1px solid black;
+    flex-shrink: 0;
   }
+  .center{
+    display: inline-block;
+  }
+
+
+  /*Formulario parte 1*/
+  
+  .Cadastropet {
+    display: inline-block;
+    align-items: left;
+    width: 10%;
+    tab-size: 0px;
+    color: #e2e2e2;
+    flex-shrink: 0;
+  }
+
+  /*Formulario parte 2*/
+  .pn{
+    float: right;
+    margin-top: -243px;
+    margin-right: 170px;
+  }
+
+  /*Formulario parte 3*/
+  .sof{
+    position: left;
+  }
+
+  /*Formulario parte 4*/
+  .ponto{
+    float: right;
+    margin-top: -315px;
+    margin-right: 90px;
+    opacity: 0.3;
+  }
+  
+  
+  
+  /*Formulario parte 5*/
   .canen{
     margin: 2rem;
   display: inline-block;
@@ -215,7 +210,7 @@
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    margin-top: -10rem;
+    margin-top: -1rem;
     cursor: pointer;
   }
   .button1 {
@@ -224,14 +219,11 @@
     border: 0px solid;
     position: relative;
     left: 0.1%;
+    text-decoration: none;
   }
   .button2 {
     background-color: #e2e2e2;
     border: 0px solid;
     position: relative;
     left: 55%;
-  }
-  .button2 a {
-    text-decoration: none;
-    color: black;
   }
